@@ -1,0 +1,104 @@
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                 :root {
+                                    --BG: #20343d;
+                                    --DVBG: #ecf0e0;
+                                    --BDCl: white;
+                                    --HDCL: white;
+                                    --BBD: var(--BG);
+                                    --BC: rgb(247, 186, 72);
+                                    --EC: rgb(117, 115, 115)
+                                }
+                                
+                                body {
+                                    background-color: var(--BG);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                }
+                                /* title of every div */
+                                
+                                h1 {
+                                    color: var(--BC)
+                                }
+                                /* result div */
+                                
+                                .result {
+                                    display: flex;
+                                    flex-direction: column;
+                                    color: var(--BC);
+                                    border-right: 1px solid var(--BDCl);
+                                    height: 70vh;
+                                    width: 70vw;
+                                    padding: 50px;
+                                    margin-right: 0.5rem;
+                                }
+                                /* button div */
+                                
+                                .controls {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    margin-bottom: 11rem;
+                                    margin-right: 3rem;
+                                    padding: 10px;
+                                }
+                                
+                                .controls button {
+                                    background-color: var(--BBD);
+                                    height: 6vh;
+                                    width: 20vw;
+                                    color: var(--BC);
+                                    border: 2px solid var(--BC);
+                                    border-radius: 10px;
+                                }
+                                
+                                .controls a {
+                                    color: var(--BC);
+                                }
+                                
+                                i {
+                                    font-size: 1.5em;
+                                    color: var(--EC);
+                                }
+                                
+                                button {
+                                    margin-bottom: 1rem;
+                                }
+                                .have:hover{
+                                color: orange;
+                                background-color:rgba(250, 219, 162, 0.274);
+                                }
+                              
+                                #revealer{
+                                    border: none;
+                                    text-decoration: underline;
+                                }#revealer:hover{
+                                    color: white;
+                                }
+                                #revealer:active{
+                                    border: 2px solid var(--BC);
+                                    border-radius: 10px;
+                                    background-color:rgba(250, 219, 162, 0.274);
+
+                                }
+
+                                
+                                .fonter{
+                                    font-size: 1rem;
+                                    color:aquamarine
+                                }
+                                .imaget{
+                                    height: 200px;
+                                    width: 200px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content:center
+                                }
